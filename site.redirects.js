@@ -130,7 +130,7 @@ const siteRedirects = {
         }
         if (existingPath.includes('/contributor-guide')) {
             return [
-                existingPath.replace('/contributor-guide', '/contributor-guide/current'),
+                existingPath.replace('/developers/contributor-guide', '/developers/contributor-guide/current'),
             ]
         }
 

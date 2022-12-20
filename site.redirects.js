@@ -1,12 +1,12 @@
 const siteRedirects = {
-    fromExtensions: ['html', 'htm'], // /myPage.html -> /myPage
+    // fromExtensions: ['html', 'htm'], // /myPage.html -> /myPage
     // toExtensions: ['exe', 'zip'], // /myAsset -> /myAsset.zip (if latter exists)
     redirects: [
         // /docs/oldDoc -> /docs/newDoc
         {
             to: '/developers/weaviate/roadmap',
             from: [
-                '/developers/weaviate/current/roadmap',
+                // '/developers/weaviate/current/roadmap', // handled by createRedirects
                 '/developers/weaviate/current/roadmap/architectural-roadmap.html',
                 '/developers/weaviate/current/roadmap/feature-roadmap.html',
             ]
@@ -98,35 +98,39 @@ const siteRedirects = {
                 existingPath.replace('/blog', '/blog/2022/12'),
             ];
         }
-        if (existingPath.includes('/current/graphql-references')) {
+        if (existingPath.includes('/references/graphql')) {
             return [
                 existingPath.replace('/references/graphql', '/current/graphql-references'),
             ]
         }
-        if (existingPath.includes('/current/retriever-vectorizer-modules')) {
+        if (existingPath.includes('/modules/retriever-vectorizer-modules')) {
             return [
                 existingPath.replace('/modules/retriever-vectorizer-modules', '/current/retriever-vectorizer-modules'),
             ]
         }
-        if (existingPath.includes('/current/reader-generator-modules')) {
+        if (existingPath.includes('/modules/reader-generator-modules')) {
             return [
                 existingPath.replace('/modules/reader-generator-modules', '/current/reader-generator-modules'),
             ]
         }
-        if (existingPath.includes('/current/other-modules')) {
+        if (existingPath.includes('/modules/other-modules')) {
             return [
                 existingPath.replace('/modules/other-modules', '/current/other-modules'),
             ]
         }
-        if (existingPath.includes('/current/restful-api-references')) {
+        if (existingPath.includes('/references/rest')) {
             return [
                 existingPath.replace('/references/rest', '/current/restful-api-references'),
             ]
         }
-        if (existingPath.includes('/current')) {
+        if (existingPath.includes('/developers/weaviate')) {
             return [
                 existingPath.replace('/developers/weaviate', '/developers/weaviate/current'),
-                existingPath.replace('/developers/contributor-guide', '/developers/contributor-guide/current'),
+            ]
+        }
+        if (existingPath.includes('/contributor-guide')) {
+            return [
+                existingPath.replace('/contributor-guide', '/contributor-guide/current'),
             ]
         }
 

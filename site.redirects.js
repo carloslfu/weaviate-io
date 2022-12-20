@@ -14,6 +14,18 @@ const siteRedirects = {
         // TODO: add individual page redirects
         {
             to: '/developers/weaviate/',
+            from: '/developers/weaviate/current/core-knowledge/basics.html'
+        },
+        {
+            to: '/developers/weaviate/',
+            from: '/developers/weaviate/current/core-knowledge/clients.html'
+        },
+        {
+            to: '/developers/weaviate/',
+            from: '/developers/weaviate/current/core-knowledge/console.html'
+        },
+        {
+            to: '/developers/weaviate/',
             from: '/developers/weaviate/current/schema'
         },
         {
@@ -80,12 +92,17 @@ const siteRedirects = {
             to: '/developers/weaviate/',
             from: '/developers/weaviate/current/vector-index-plugins/hnsw.html'
         },
+        {
+            to: '/developers/weaviate/',
+            from: '/developers/weaviate/current/more-resources/deprecation-messages.html'
+        },
     ],
     createRedirects(existingPath) {
         if (existingPath.includes('/blog')) {
             // Redirect from /blog/2022/06/{X} to /blog/{X}
             return [
                 existingPath.replace('/blog', '/blog/2021/01'),
+                existingPath.replace('/blog', '/blog/2021/02'),
                 existingPath.replace('/blog', '/blog/2021/03'),
                 existingPath.replace('/blog', '/blog/2021/05'),
                 existingPath.replace('/blog', '/blog/2021/11'),
@@ -126,6 +143,11 @@ const siteRedirects = {
         if (existingPath.includes('/developers/weaviate')) {
             return [
                 existingPath.replace('/developers/weaviate', '/developers/weaviate/current'),
+            ]
+        }
+        if (existingPath.includes('/contributor-guide/weaviate-modules')) {
+            return [
+                existingPath.replace('/contributor-guide/weaviate-modules', 'contributor-guide/current/weaviate-module-system'),
             ]
         }
         if (existingPath.includes('/contributor-guide')) {

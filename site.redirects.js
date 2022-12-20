@@ -147,7 +147,7 @@ const siteRedirects = {
         }
         if (existingPath.includes('/contributor-guide/weaviate-modules')) {
             return [
-                existingPath.replace('/contributor-guide/weaviate-modules', '/contributor-guide/current/weaviate-module-system'),
+                existingPath.replace('/developers/contributor-guide/weaviate-modules', '/developers/contributor-guide/current/weaviate-module-system'),
             ]
         }
         if (existingPath.includes('/contributor-guide')) {

@@ -6,6 +6,7 @@ const siteRedirects = {
         {
             to: '/developers/weaviate/roadmap',
             from: [
+                '/developers/weaviate/current/roadmap',
                 '/developers/weaviate/current/roadmap/architectural-roadmap.html',
                 '/developers/weaviate/current/roadmap/feature-roadmap.html',
             ]

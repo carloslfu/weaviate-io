@@ -5,7 +5,10 @@ const siteRedirects = {
         // /docs/oldDoc -> /docs/newDoc
         {
             to: '/developers/weaviate/roadmap',
-            from: '/weaviate/current/roadmap/architectural-roadmap.html',
+            from: [
+                '/developers/weaviate/current/roadmap/architectural-roadmap.html',
+                '/developers/weaviate/current/roadmap/feature-roadmap.html',
+            ]
         },
         // {
         //     to: '/blog/understand-your-unstructured-data',

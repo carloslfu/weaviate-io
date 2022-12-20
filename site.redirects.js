@@ -80,11 +80,6 @@ const siteRedirects = {
             to: '/developers/weaviate/',
             from: '/developers/weaviate/current/vector-index-plugins/hnsw.html'
         },
-
-{
-    to: '/developers/weaviate/xxx',
-    from: '',
-},
     ],
     createRedirects(existingPath) {
         if (existingPath.includes('/blog')) {

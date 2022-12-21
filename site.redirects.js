@@ -86,7 +86,7 @@ const siteRedirects = {
             from: '/developers/weaviate/current/vector-index-plugins/distances.html'
         },
         {
-            to: '/developers/weaviate/architecture/vector-index-plugins#hnsw',
+            to: '/developers/weaviate/architecture/vector-index-plugins',
             from: '/developers/weaviate/current/vector-index-plugins/hnsw.html'
         },
         {

@@ -7,8 +7,7 @@ const siteRedirects = {
                 '/developers/weaviate/current/roadmap/architectural-roadmap.html',
                 '/developers/weaviate/current/roadmap/feature-roadmap.html',
             ]
-        },
-        // TODO: add individual page redirects                
+        },              
         {
             to: '/developers/weaviate/core-knowledge/data',
             from: '/developers/weaviate/current/core-knowledge/basics.html'

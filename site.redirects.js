@@ -8,85 +8,85 @@ const siteRedirects = {
                 '/developers/weaviate/current/roadmap/feature-roadmap.html',
             ]
         },
-        // TODO: add individual page redirects
+        // TODO: add individual page redirects                
         {
-            to: '/developers/weaviate/',
+            to: '/developers/weaviate/core-knowledge/data',
             from: '/developers/weaviate/current/core-knowledge/basics.html'
         },
         {
-            to: '/developers/weaviate/',
+            to: '/developers/weaviate/client-libraries',
             from: '/developers/weaviate/current/core-knowledge/clients.html'
         },
         {
-            to: '/developers/weaviate/',
+            to: '/developers/weaviate/getting-started/console',
             from: '/developers/weaviate/current/core-knowledge/console.html'
         },
         {
-            to: '/developers/weaviate/',
+            to: '/developers/weaviate/configuration/schema-configuration',
             from: '/developers/weaviate/current/schema'
         },
         {
-            to: '/developers/weaviate/',
+            to: '/developers/weaviate/configuration/datatypes',
             from: '/developers/weaviate/current/schema/datatypes.html'
         },
         {
-            to: '/developers/weaviate/',
+            to: '/developers/weaviate/configuration/schema-configuration',
             from: '/developers/weaviate/current/schema/schema-configuration.html'
         },
         {
-            to: '/developers/weaviate/',
+            to: '/developers/weaviate/guides/',
             from: '/developers/weaviate/current/tutorials'
         },
         {
-            to: '/developers/weaviate/',
+            to: '/developers/weaviate/more-resources/example-datasets',
             from: '/developers/weaviate/current/tutorials/example-datasets.html'
         },
         {
-            to: '/developers/weaviate/',
+            to: '/developers/weaviate/guides/how-to-create-a-schema',
             from: '/developers/weaviate/current/tutorials/how-to-create-a-schema.html'
         },
         {
-            to: '/developers/weaviate/',
+            to: '/developers/weaviate/guides',
             from: '/developers/weaviate/current/tutorials/how-to-do-classification.html'
         },
         {
-            to: '/developers/weaviate/',
+            to: '/developers/weaviate/guides',
             from: '/developers/weaviate/current/tutorials/how-to-perform-a-semantic-search.html'
         },
         {
-            to: '/developers/weaviate/',
+            to: '/developers/weaviate/guides',
             from: '/developers/weaviate/current/tutorials/how-to-query-data.html'
         },
         {
-            to: '/developers/weaviate/',
+            to: '/developers/weaviate/guides',
             from: '/developers/weaviate/current/tutorials/how-to-use-weaviate-without-modules.html'
         },
         {
-            to: '/developers/weaviate/',
+            to: '/developers/weaviate/guides',
             from: '/developers/weaviate/current/tutorials/other-examples.html'
         },
         {
-            to: '/developers/weaviate/',
+            to: '/developers/weaviate/guides',
             from: '/developers/weaviate/current/tutorials/quick-start-with-the-text2vec-contextionary-module.html'
         },
         {
-            to: '/developers/weaviate/',
+            to: '/developers/weaviate/guides',
             from: '/developers/weaviate/current/tutorials/semantic-search-through-wikipedia.html'
         },
         {
-            to: '/developers/weaviate/',
+            to: '/developers/weaviate/more-resources/write-great-bug-reports',
             from: '/developers/weaviate/current/tutorials/write-great-bug-reports.html'
         },
         {
-            to: '/developers/weaviate/',
+            to: '/developers/weaviate/architecture/vector-index-plugins',
             from: '/developers/weaviate/current/vector-index-plugins'
         },
         {
-            to: '/developers/weaviate/',
+            to: '/developers/weaviate/configuration/distances',
             from: '/developers/weaviate/current/vector-index-plugins/distances.html'
         },
         {
-            to: '/developers/weaviate/',
+            to: '/developers/weaviate/architecture/vector-index-plugins#hnsw',
             from: '/developers/weaviate/current/vector-index-plugins/hnsw.html'
         },
         {
